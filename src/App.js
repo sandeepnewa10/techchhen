@@ -1,8 +1,11 @@
 import './App.scss';
+import Homepage from './page/Homepage';
 
 function App() {
   return (
-<>hello</>
+    <>
+    <Homepage/>
+    </>
   );
 }
 
