@@ -22,7 +22,7 @@ const FeatureSecond = () => {
                             <div className="featureSecond-list">
                                 <div className="row mb-3">
                                 <div className="col-sm-2 col-md-2"><div className="icon"><TbReportMedical /></div></div>
-                                <div className="col-sm-11 col-md-10"><div className="content">
+                                <div className="col-sm-10 col-md-10"><div className="content">
                                     <h4>Developer Friendly Design</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ab reiciendis possimus ea praesentium atque ad ipsa inventore sit corrupti.</p>
                                 </div></div>
