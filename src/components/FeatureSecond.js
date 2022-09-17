@@ -17,7 +17,7 @@ const FeatureSecond = () => {
                         <div className="featureSecond__inner">
                             <div className="section-title">
                                 <span>Features</span>
-                                <h2>Top Features that Keep Us Ahed</h2>
+                                <h2>Top Features that Keep Us Head</h2>
                             </div>
                             <div className="featureSecond-list">
                                 <div className="row mb-3">
