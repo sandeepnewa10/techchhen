@@ -9,19 +9,25 @@ const Team = () => {
     <section className="team">
         <div className="container">
             <div className="row">
-                <div className="col-md-5">
+                <div className="col-md-4">
                 <div className="section-title">
-                                <h2>Team Members</h2>
-                                <span>Amazing Team</span>
+                                <span>Team Members</span>
+                                <h2>Amazing Team</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae exercitationem reiciendis dolorem natus magnam sed quod impedit et soluta delectus.</p>
                             </div>
                 </div>
+                <div className="col-md-8">
+                <div className="row">
                 <div className="col-md-3">
                     <img src={image1} alt="fasfs" className='img-fluid' />
                 </div>
                 <div className="col-md-3"><img src={image2} alt="fasfs" className='img-fluid' /></div>
-                <div className="col-md-3 offset-md-3"><img src={image3} alt="fasfs" className='img-fluid' /></div>
+                <div className="col-md-3"><img src={image3} alt="fasfs" className='img-fluid' /></div>
                 <div className="col-md-3"><img src={image4} alt="fasfs" className='img-fluid' /></div>
+                </div>
+                </div>
+
+                
                 
             </div>
         </div>

@@ -10,16 +10,27 @@
     --bg-gray: #f6f7f8;
     --lg-font: 'Roboto', sans-serif;;
     --sm-font: 'Roboto', sans-serif;
-    --dark-blue-color: #5956e9;
+    --dark-blue-color: #6c63ff;
     --dark-grey-color: #606060;
     --black-color: #000;
     --bs-btn-color: #c6cfe7;
 
 }
-
+h2, h3{
+    color: var(--black-color)
+}
+h3{
+    font-size: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 body{
     font-family: var(--sm-font);
     color: var(--dark-grey-color);
+    font-size: 16px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    //font-weight: 400;
 }
 // Header Section
 nav.navbar {
@@ -62,6 +73,9 @@ nav.navbar {
             &.active {
                 color: var(--dark-blue-color);
             }
+            &.active {
+             font-weight: 500;
+            }
         }
     }
 }
@@ -92,6 +106,7 @@ nav.navbar {
 }
 // Slider section
 .slider {
+    padding: 0;
     .swiper-button-prev,
     .swiper-button-next {
         width: 120px;
@@ -129,6 +144,7 @@ nav.navbar {
             text-transform: uppercase;
             transition: all .6s ease-in-out;
             margin-bottom: 2rem;
+            color: var(--white-color);
         }
         span {
             font-size: 1.5rem;
@@ -157,6 +173,91 @@ nav.navbar {
 section{
     padding: 6rem 0 7rem 0;
 }
+.section-title{
+    margin-bottom: 40px;
+    h2{
+        font-size: 36px;
+        font-weight: 600;
+        color: var(--black-color);
+    }
+    span{
+        font-size: 24px;
+        margin-bottom: 0;
+        font-weight: 600;
+        color: var(--dark-blue-color);
+    }
+}
 .about{
     
+}
+.btn{
+     background-color: var(--dark-blue-color);
+     border-color: var(--dark-blue-color);;
+     color: var(--white-color);     
+}
+
+
+// service
+.service{
+    background-color: #f0f0f4;
+    &__inner{
+        .service-item{
+            margin-bottom: 40px;
+            .icon{
+                @include circle;
+                transition: all .3s ease-out;
+            }
+            &:hover{
+                .icon{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+// Product
+.product{
+    background-color: #f0f0f4;
+    &__inner{
+        .product-item{
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .icon{
+                @include circle;
+                transition: all .3s ease-out;
+            }
+            // &:hover{
+            //     .icon{
+            //         margin-left: 20px;
+            //     }
+            // }
+        }
+    }
+}
+
+// featureSecond 
+
+.featureSecond{
+    background-color: #f0f0f4;
+    &__inner{
+        .featureSecond-list{
+            .icon{
+                @include circle;
+            }
+        }
+    }
+}
+
+// contact 
+.contact{
+    background-color: #f0f0f4;
+}
+
+footer{
+    padding: 20px 0;
 }

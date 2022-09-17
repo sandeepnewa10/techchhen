@@ -1,62 +1,64 @@
 import React from 'react'
+import { FaBloggerB, FaRegKeyboard } from "react-icons/fa"
+import { MdPeopleAlt } from "react-icons/md"
+import { RiImageEditFill } from "react-icons/ri"
+import { FiEdit } from "react-icons/fi"
+import { TbReportMedical } from "react-icons/tb"
+
 
 const Product = () => {
     return (
         <section className="product">
             <div className="container">
                 <div className="row">
-                    <div className="section-title">
-                        <h2>Our Product</h2>
-                        <span>We Develope Amazing Products</span>
+                    <div className="section-title text-center mb-5">
+                        <span>Our Product</span>
+                        <h2 className='mb-4'>We Develope Amazing Products</h2>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row product__inner">
                     <div className="col-md-4">
-                        <div className="product__inner">
+                        <div className="product-item">
+                            <div className="icon"><MdPeopleAlt /></div>
                             <h2>Custom CMS</h2>
-                            <span className="icon">Icon</span>
+
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam fugiat ipsa officiis natus nulla eius consequuntur ea eligendi quibusdam?</p>
-                            <a href="/">View Details</a>
+
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="product__inner">
+                        <div className="product-item">
+                            <div className="icon"><FaBloggerB /></div>
                             <h2>Blogging Tool</h2>
-                            <span className="icon">Icon</span>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam fugiat ipsa officiis natus nulla eius consequuntur ea eligendi quibusdam?</p>
-                            <a href="/">View Details</a>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="product__inner">
+                        <div className="product-item">
+                            <div className="icon"><RiImageEditFill /></div>
                             <h2>Photo Editor</h2>
-                            <span className="icon">Icon</span>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam fugiat ipsa officiis natus nulla eius consequuntur ea eligendi quibusdam?</p>
-                            <a href="/">View Details</a>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="product__inner">
+                        <div className="product-item">
+                            <div className="icon"><FiEdit /></div>
                             <h2>Accounting App</h2>
-                            <span className="icon">Icon</span>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam fugiat ipsa officiis natus nulla eius consequuntur ea eligendi quibusdam?</p>
-                            <a href="/">View Details</a>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="product__inner">
+                        <div className="product-item">
+                            <div className="icon"><FaRegKeyboard /></div>
                             <h2>Keyword Tool</h2>
-                            <span className="icon">Icon</span>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam fugiat ipsa officiis natus nulla eius consequuntur ea eligendi quibusdam?</p>
-                            <a href="/">View Details</a>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="product__inner">
+                        <div className="product-item">
+                            <div className="icon"><TbReportMedical /></div>
                             <h2>Social Media Tool</h2>
-                            <span className="icon">Icon</span>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam fugiat ipsa officiis natus nulla eius consequuntur ea eligendi quibusdam?</p>
-                            <a href="/">View Details</a>
                         </div>
                     </div>
                 </div>

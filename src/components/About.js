@@ -9,8 +9,8 @@ const About = () => {
                     <div className="col-md-7">
                         <div className="about__inner">
                             <div className="section-title">
-                                <h2>About Us</h2>
-                                <span>We Innovate Digital Goods</span>
+                                <span>About Us</span>
+                                <h2>We Innovate Digital Goods</h2>
                             </div>
                             <ul className="about__inner-content">
                                 <li>

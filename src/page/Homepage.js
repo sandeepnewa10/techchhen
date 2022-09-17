@@ -6,6 +6,10 @@ import Slider from '../components/Slider'
 import FeatureOne from '../components/FeatureOne'
 import Product from '../components/Product'
 import Team from '../components/Team'
+import FeatureSecond from '../components/FeatureSecond'
+import Partner from '../components/Partner'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 
 const Homepage = () => {
@@ -18,6 +22,10 @@ const Homepage = () => {
       <FeatureOne/>
       <Product/>
       <Team/>
+      <FeatureSecond/>
+      <Partner/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }

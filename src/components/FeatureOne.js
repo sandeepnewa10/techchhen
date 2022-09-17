@@ -1,5 +1,5 @@
 import React from 'react'
-import Photo from '../assets/pic2.jpg';
+import Photo from '../assets/feature-img.png';
 const FeatureOne = () => {
     return (
         <section className="featureOne">
@@ -13,8 +13,8 @@ const FeatureOne = () => {
                     <div className="col-md-6">
                         <div className="featureOne__inner">
                             <div className="section-title">
-                                <h2>Why Choose Us</h2>
-                                <span>Never compromise with Quality</span>
+                                <span>Why Choose Us</span>
+                                <h2>Never compromise with Quality</h2>
                             </div>
                             <ul className="featureOne">
                                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium adipisci aliquid sunt, consequuntur assumenda ab.</li>
