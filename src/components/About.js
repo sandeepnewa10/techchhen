@@ -1,12 +1,12 @@
 import React from 'react'
-import Photo from '../assets/pic3.jpg';
+import Photo from '../assets/about.jpg';
 const About = () => {
     return (
         <section className="about" id="about">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5"> <img src={Photo} alt="feature" className='img-fluid' /></div>
-                    <div className="col-md-7">
+                    <div className="col-md-7"> <img src={Photo} alt="feature" className='img-fluid' /></div>
+                    <div className="col-md-5">
                         <div className="about__inner">
                             <div className="section-title">
                                 <span>About Us</span>

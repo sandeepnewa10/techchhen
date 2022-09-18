@@ -1,5 +1,5 @@
 import React from 'react'
-import Photo from '../assets/image1.jpg';
+import Photo from '../assets/worker.jpg';
 import { FaCalendarAlt, FaPencilAlt, FaHubspot, FaDiceD6 } from "react-icons/fa"
 
 const Service = () => {
