@@ -24,15 +24,15 @@ const Partner = () => {
                 </div>
                 <div className="col-md-7">
                     <div className="row">
-                        <div className="col-sm-4 col-md-4 mb-5"><img src={Brand1} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand2} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand3} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand4} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand5} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand6} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand7} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand8} alt="Brand" className='img-fluid' /></div>
-                        <div className="col-sm-4 col-md-4  mb-5"><img src={Brand9} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4 mb-5"><img src={Brand1} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand2} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand3} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand4} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand5} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand6} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand7} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand8} alt="Brand" className='img-fluid' /></div>
+                        <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand9} alt="Brand" className='img-fluid' /></div>
                     </div>
                 </div>
             </div>
