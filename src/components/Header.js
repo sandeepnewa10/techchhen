@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from '../assets/logo.svg';
-
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Header = () => {
@@ -26,12 +25,13 @@ const Header = () => {
               className="ms-auto my-2 my-lg-0"
             // navbarScroll
             >
+            
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about" className="active">About</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#service">Service</Nav.Link> 
               <Nav.Link href="#portfolio">Products</Nav.Link>
-              <Nav.Link href="#Team">Team</Nav.Link>
-              <Nav.Link href="#testimonial">Testimonial</Nav.Link>
-              <Nav.Link href="#blog">Blog</Nav.Link>
+              <Nav.Link href="#team">Team</Nav.Link>
+              <Nav.Link href="#partner">Partner</Nav.Link>                       
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

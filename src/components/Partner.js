@@ -12,7 +12,7 @@ import Brand9 from '../assets/brand-img9.png';
 
 const Partner = () => {
   return (
-    <section className="partner">
+    <section className="partner" id="partner">
         <div className="container">
             <div className="row">
                 <div className="col-md-5">

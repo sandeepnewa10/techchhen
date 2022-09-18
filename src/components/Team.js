@@ -6,7 +6,7 @@ import image4 from '../assets/model11.jpg';
 
 const Team = () => {
   return (
-    <section className="team">
+    <section className="team" id="team">
         <div className="container">
             <div className="row">
                 <div className="col-md-4">

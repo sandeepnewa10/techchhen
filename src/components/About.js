@@ -2,7 +2,7 @@ import React from 'react'
 import Photo from '../assets/pic3.jpg';
 const About = () => {
     return (
-        <section className="about">
+        <section className="about" id="about">
             <div className="container">
                 <div className="row">
                     <div className="col-md-5"> <img src={Photo} alt="feature" className='img-fluid' /></div>

@@ -14,7 +14,7 @@ const Slider = () => {
     return (
         <>
           
-            <section className="slider">
+            <section className="slider" id="home">
                 <Swiper
                     pagination={{
                         type: "fraction",

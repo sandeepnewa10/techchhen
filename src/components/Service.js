@@ -4,7 +4,7 @@ import { FaCalendarAlt, FaPencilAlt, FaHubspot, FaDiceD6 } from "react-icons/fa"
 
 const Service = () => {
     return (
-        <section className="service">
+        <section className="service" id="service">
             <div className="container">
                 <div className="row">
                     <div className="col-md-7">
