@@ -35,16 +35,6 @@ h2{
 // Header Section
 nav.navbar {
     &.fixed-top {
-        background-color: rgba(0, 0, 0, 0);
-        transition: all .4s ease-in-out;
-        padding: 20px 0;
-        .navbar-nav {
-            .nav-link {
-                color: var(--white-color);
-            }
-        }
-    }
-    &.sticky {
         background-color: rgba(255, 255, 255, 1);
         padding: 10px 0;
         box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.16);
@@ -54,6 +44,7 @@ nav.navbar {
             }
         }
     }
+    
     .navbar-brand {
         img {
             max-width: 180px;
@@ -69,6 +60,7 @@ nav.navbar {
             padding-left: 0.75rem;
             padding-right: 0.75rem;
             letter-spacing: 2px;
+            cursor: pointer;
             &:hover,
             &.active {
                 color: var(--dark-blue-color);
@@ -202,7 +194,7 @@ section{
 
 // service
 .service{
-    background-color: #f0f0f4;
+    background-color: #f8f8f8;
     &__inner{
         .service-item{
             margin-bottom: 40px;
@@ -236,7 +228,7 @@ section{
 
 // Product
 .product{
-    background-color: #f0f0f4;
+    background-color: #f8f8f8;
     &__inner{
         .product-item{
             margin-bottom: 40px;
@@ -261,7 +253,7 @@ section{
 // featureSecond 
 
 .featureSecond{
-    background-color: #f0f0f4;
+    background-color: #f8f8f8;
     &__inner{
         .featureSecond-list{
             .icon{
@@ -273,7 +265,7 @@ section{
 
 // contact 
 .contact{
-    background-color: #f0f0f4;
+    background-color: #f8f8f8;
 }
 
 footer{

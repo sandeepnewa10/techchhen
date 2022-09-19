@@ -15,7 +15,7 @@ import Footer from '../components/Footer'
 const Homepage = () => {
   return (
     <>
-      <Header />
+      <Header />    
       <Slider/>
       <About />
       <Service/>
@@ -24,7 +24,7 @@ const Homepage = () => {
       <Team/>
       <FeatureSecond/>
       <Partner/>
-      <Contact/>
+      <Contact/>      
       <Footer/>
     </>
   )

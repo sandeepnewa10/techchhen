@@ -8,7 +8,7 @@ import { TbReportMedical } from "react-icons/tb"
 
 const Product = () => {
     return (
-        <section className="product"id="portfolio">
+        <section className="product"id="product">
             <div className="container">
                 <div className="row">
                     <div className="section-title text-center mb-5">
