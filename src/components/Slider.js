@@ -27,7 +27,7 @@ const Slider = () => {
                 > 
                     {slider.map((list, index) => (
                         <SwiperSlide>
-                            <img src={list.image} alt="Techchhen" />
+                            <img src={list.image} alt="Techchhen" className="img-fluid" />
                             <div className="image-caption">
                                 <div class="container">
                                     <div className="row">
