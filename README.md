@@ -1,6 +1,6 @@
 # Techchhen
 
-![portfolio] (https://github.com/sandeepnewa10/techchhen/blob/main/screenshot.png)
+![Screenshot] (https://github.com/sandeepnewa10/techchhen/blob/main/screenshot.png)
 
 Tech Used:
 
