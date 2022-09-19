@@ -1,6 +1,6 @@
 # Techchhen
 
-![Screenshot] (https://github.com/sandeepnewa10/techchhen/blob/main/screenshot.png)
+![Screenshot](screenshot.png)
 
 Tech Used:
 
