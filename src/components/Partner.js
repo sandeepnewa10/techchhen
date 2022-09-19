@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap';
 import Brand1 from '../assets/brand-img1.png';
 import Brand2 from '../assets/brand-img2.png';
 import Brand3 from '../assets/brand-img3.png';
@@ -13,8 +14,8 @@ import Brand9 from '../assets/brand-img9.png';
 const Partner = () => {
   return (
     <section className="partner" id="partner">
-        <div className="container">
-            <div className="row">
+        <Container>
+            <Row>
                 <div className="col-md-5">
                 <div className="section-title">
                         <span>Partners</span>
@@ -23,7 +24,7 @@ const Partner = () => {
                     </div>
                 </div>
                 <div className="col-md-7">
-                    <div className="row">
+                    <Row>
                         <div className="col-4 col-sm-4 col-md-4 mb-5"><img src={Brand1} alt="Brand" className='img-fluid' /></div>
                         <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand2} alt="Brand" className='img-fluid' /></div>
                         <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand3} alt="Brand" className='img-fluid' /></div>
@@ -33,10 +34,10 @@ const Partner = () => {
                         <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand7} alt="Brand" className='img-fluid' /></div>
                         <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand8} alt="Brand" className='img-fluid' /></div>
                         <div className="col-4 col-sm-4 col-md-4  mb-5"><img src={Brand9} alt="Brand" className='img-fluid' /></div>
-                    </div>
+                    </Row>
                 </div>
-            </div>
-        </div>
+            </Row>
+        </Container>
     </section>
   )
 }

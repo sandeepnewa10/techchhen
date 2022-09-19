@@ -4,19 +4,20 @@ import { MdPeopleAlt } from "react-icons/md"
 import { RiImageEditFill } from "react-icons/ri"
 import { FiEdit } from "react-icons/fi"
 import { TbReportMedical } from "react-icons/tb"
+import { Container, Row } from 'react-bootstrap'
 
 
 const Product = () => {
     return (
         <section className="product"id="product">
-            <div className="container">
-                <div className="row">
+            <Container>
+                <Row>
                     <div className="section-title text-center mb-5">
                         <span>Our Product</span>
                         <h2 className='mb-4'>We Develope Amazing Products</h2>
                     </div>
-                </div>
-                <div className="row product__inner">
+                </Row>
+                <Row className="product__inner">
                     <div className="col-md-4">
                         <div className="product-item">
                             <div className="icon"><MdPeopleAlt /></div>
@@ -61,8 +62,8 @@ const Product = () => {
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam fugiat ipsa officiis natus nulla eius consequuntur ea eligendi quibusdam?</p>
                         </div>
                     </div>
-                </div>
-            </div>
+                </Row>
+            </Container>
         </section>
     )
 }

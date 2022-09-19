@@ -12,14 +12,14 @@ import { slider } from '../data/Data'
 const Slider = () => {
 
     return (
-        <>
-          
+        <>          
             <section className="slider" id="home">
                 <Swiper
                     navigation={true}
-                    modules={[Pagination, Navigation, EffectFade]}
+                    modules={[Navigation, EffectFade]}
                     className="swiper"
                     effect="fade" 
+                    
                     autoplay= {{
                             delay: 3000,                     
                             disableOnInteraction: false
@@ -27,7 +27,7 @@ const Slider = () => {
                 > 
                     {slider.map((list, index) => (
                         <SwiperSlide>
-                            <img src={list.image} alt="Techchhen" className="img-fluid" />
+                            <img src={list.image} alt="Techchhen" className="w-100 h-90" />
                             <div className="image-caption">
                                 <div class="container">
                                     <div className="row">
@@ -39,13 +39,9 @@ const Slider = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
-                    ))}
-                
-
+                    ))}              
                 </Swiper>
             </section>
-
-
         </>
     )
 }

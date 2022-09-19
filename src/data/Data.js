@@ -1,6 +1,6 @@
 export const slider = [
     {
-      image:"../images/slider/slide3.jpg",
+      image:"../images/slider/slide1.jpg",
       title:"Wonderful View House",
       subtitle:"Lorem ipsum dolor sit amet",
     },
@@ -10,7 +10,7 @@ export const slider = [
       subtitle:"Lorem ipsum dolor sit amet",
     },
     {
-      image:"../images/slider/slide1.jpg",
+      image:"../images/slider/slide3.jpg",
       title:"Modern Apartment in Mission District",
       subtitle:"Lorem ipsum dolor sit amet",
     }

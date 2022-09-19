@@ -1,11 +1,12 @@
 import React from 'react'
 import ContactForm from './ContactForm'
+import { Container, Row } from 'react-bootstrap';
 
 const Contact = () => {
     return (
         <section className="contact" id="contact">
-            <div className="container">
-                <div className="row">
+            <Container>
+                <Row>
                     <div className="col-md-5">
                         <div className="section-title">
                             <span>Contact Us</span>
@@ -19,8 +20,8 @@ const Contact = () => {
 
                         </div>
                     </div>
-                </div>
-            </div>
+                </Row>
+            </Container>
         </section>
     )
 }

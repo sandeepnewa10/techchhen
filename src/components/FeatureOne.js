@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap';
 import Photo from '../assets/feature-img.png';
 const FeatureOne = () => {
     return (
         <section className="featureOne">
-            <div className="container">
-                <div className="row">
+            <Container>
+                <Row>
                     <div className="col-md-6">
                         <div className="featureOne__image">
                             <img src={Photo} alt="feature" className='img-fluid' />
@@ -25,8 +26,8 @@ const FeatureOne = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
+                </Row>
+            </Container>
         </section>
     )
 }

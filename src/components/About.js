@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap';
 import Photo from '../assets/about.jpg';
 const About = () => {
     return (
         <section className="about" id="about">
-            <div className="container">
-                <div className="row">
+            <Container>
+                <Row>
                     <div className="col-md-7"> <img src={Photo} alt="feature" className='img-fluid' /></div>
                     <div className="col-md-5">
                         <div className="about__inner">
@@ -23,8 +24,8 @@ const About = () => {
                             <a href="/" className="btn">Read More</a>
                         </div>
                     </div>
-                </div>
-            </div>
+                </Row>
+            </Container>
         </section>
     )
 }

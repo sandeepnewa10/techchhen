@@ -1,19 +1,20 @@
 import React from 'react'
 import Photo from '../assets/worker.jpg';
 import { FaCalendarAlt, FaPencilAlt, FaHubspot, FaDiceD6 } from "react-icons/fa"
+import { Container, Row } from 'react-bootstrap';
 
 const Service = () => {
     return (
         <section className="service" id="service">
-            <div className="container">
-                <div className="row">
+            <Container>
+                <Row>
                     <div className="col-md-7">
                         <div className="service__inner">
                             <div className="section-title">
                                 <span>Service</span>
                                 <h2>Industry Standard Service</h2>
                             </div>
-                            <div className="row">
+                            <Row>
                                 <div className="col-sm-12 col-md-6">
                                     <div className="service-item">
                                     <div className="icon"><FaCalendarAlt /></div>
@@ -46,17 +47,7 @@ const Service = () => {
                                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, similique.</span>
                                     </div>
                                 </div></div>
-                            </div>
-                            {/* <ul className='service-list'>
-                                <li>
-                                    
-                                   
-                                </li>
-                                <li>
-                                   
-                                  
-                                </li>
-                            </ul> */}
+                            </Row>
                         </div>
                     </div>
                     <div className="col-md-5">
@@ -64,8 +55,8 @@ const Service = () => {
                             <img src={Photo} className="img-fluid" alt="service" />
                         </div>
                     </div>
-                </div>
-            </div>
+                </Row>
+            </Container>
         </section>
     )
 }
