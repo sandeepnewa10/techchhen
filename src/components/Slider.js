@@ -30,7 +30,7 @@ const Slider = () => {
                 > 
                     {slider.map((list, index) => (
                         <SwiperSlide>
-                            <img className="d-block w-100" src={list.image} alt="First slide" />
+                            <img src={list.image} alt="Techchhen" />
                             <div className="image-caption">
                                 <div class="container">
                                     <div className="row">
