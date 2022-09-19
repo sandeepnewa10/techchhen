@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Navigation } from "swiper";
 import { EffectFade } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination";
@@ -16,9 +16,6 @@ const Slider = () => {
           
             <section className="slider" id="home">
                 <Swiper
-                    pagination={{
-                        type: "fraction",
-                    }}
                     navigation={true}
                     modules={[Pagination, Navigation, EffectFade]}
                     className="swiper"
